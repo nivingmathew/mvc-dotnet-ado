@@ -1,0 +1,18 @@
+﻿@model WebApplication1.Models.Employee
+
+<form asp-action="Create" method="post">
+
+    <p>Name</p>
+    <input asp-for="Name" />
+
+    <p>Email</p>
+    <input asp-for="Email" />
+
+    <p>Salary</p>
+    <input asp-for="Salary" />
+
+    <br /><br />
+
+    <button type="submit">Save</button>
+
+</form>

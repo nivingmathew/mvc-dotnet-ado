@@ -1,0 +1,11 @@
+﻿@model WebApplication1.Models.Employee
+
+<form asp-action="Delete" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <h3>Delete @Model.Name ?</h3>
+
+    <button type="submit">Delete</button>
+
+</form>
